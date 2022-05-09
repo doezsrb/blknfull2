@@ -1,0 +1,50 @@
+.popUp {
+  position: absolute;
+  top: 20%;
+  left: calc(50% - 304.5px);
+  width: 609px;
+  height: auto;
+  background-color: #343749;
+  border-radius: 9px;
+  border: 2px solid #fe3686;
+  z-index: 91;
+  cursor: default;
+}
+
+.topFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.5px solid #2d2f3d;
+  padding: 15px 20px;
+}
+.title {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.xClose {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.xClose:hover {
+  cursor: pointer;
+}
+.xClose:hover .xStyle {
+  background-image: url("../../../public/icons/xWhite2.png");
+}
+.xStyle {
+  width: 16px;
+  height: 16px;
+  background-image: url("../../../public/icons/x.png");
+}
+.childBox {
+  padding: 3px 20px 20px 20px;
+}

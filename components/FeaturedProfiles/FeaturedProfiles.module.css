@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0px 100px 45px 100px;
+}
+
+.profileCardContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 36px;
+    align-self: flex-start;
+    color: #FFFFFF;
+    margin-bottom: 48px;
+    margin-top: 0px;
+}
+
+.viewMore {
+    align-self: flex-end;
+    width: fit-content;
+    background: transparent;
+    border: 0px;
+    color: var(--Pink);
+    font-size: 20px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.viewMore>span {
+    margin-right: 16px;
+}
+
+.viewMore:hover {
+    text-decoration: underline;
+    /* border-bottom: 1px solid var(--Pink); */
+}

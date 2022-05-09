@@ -1,0 +1,107 @@
+.container {
+    display: flex;
+    background: var(--Dark);
+    height: 100%;
+    min-height: 100vh;
+    width: 100%;
+    justify-content: center;
+}
+
+.profileContainer {
+    margin-top: 140px;
+    max-width: 740px;
+}
+
+.firstContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.firstLeftContainer {
+    margin-right: 50px;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+
+.profilePicture {
+    border-radius: 7px;
+}
+
+.name {
+    margin: 0px 25px;
+    display: inline;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.age {
+    color: var(--LightText);
+}
+
+.onlineIndicator {
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    background-color: #47BEA2;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: 5px solid #343749;
+}
+
+.actionButtonsContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.mainProfileDetailsContainer {
+    background: var(--Lighter);
+    padding: 30px 16px;
+    margin-top: 32px;
+    border-radius: 9px;
+}
+
+.mainProfileDetailsContainer>p {
+    color: #FFFFFF;
+    margin-bottom: 0px;
+}
+
+.detailTileContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.picturesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.picture {
+    margin-bottom: 30px !important;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.otherProfileDetailsContainer {
+    background: var(--Lighter);
+    padding: 10px 16px;
+    margin-bottom: 32px;
+    border-radius: 9px;
+}
+
+.otherProfileDetailsContainer>div>div:not(:nth-last-child(-n+2)) {
+    margin-bottom: 30px;
+}

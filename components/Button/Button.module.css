@@ -1,0 +1,114 @@
+.primary {
+    height: fit-content;
+    background: var(--Pink);
+    box-shadow: -3px 4px 14px rgba(254, 54, 134, 0.13);
+    border: 0px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 12px 30px;
+    width: fit-content;
+}
+
+.secondary {
+    height: fit-content;
+    background: #FFFFFF;
+    box-shadow: -3px 4px 14px rgba(52, 55, 73, 0.13);
+    border: 0px;
+    border-radius: 10px;
+    padding: 12px 14px;
+    cursor: pointer;
+    color: var(--Dark);
+    font-weight: 600;
+    font-size: 16px;
+    width: fit-content;
+}
+
+.text {
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 600;
+    background: transparent;
+    border: 0px;
+    cursor: pointer;
+}
+
+.chatNow {
+    font-size: 16px;
+    color: var(--Pink);
+    background: #F7F9FB;
+    border: 0px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: fit-content;
+    padding: 10px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    height: fit-content;
+}
+
+.icon {
+    margin-right: 10px !important;
+    display: flex;
+}
+
+.liveChat {
+    font-size: 16px;
+    color: var(--Pink);
+    background: transparent;
+    border: 2px solid var(--Pink);
+    box-shadow: -3px 4px 14px rgba(254, 54, 134, 0.13);
+    border-radius: 10px;
+    cursor: pointer;
+    width: fit-content;
+    padding: 10px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    height: fit-content;
+}
+
+.liveChatIcon {
+    margin-right: 10px !important;
+    display: flex;
+    background-color: var(--Pink);
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+}
+
+.privateMessage {
+    height: fit-content;
+    background: var(--Darker);
+    box-shadow: -3px 4px 14px rgba(52, 55, 73, 0.13);
+    border: 0px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 12px 30px;
+    width: fit-content;
+}
+
+.withIcon {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: var(--Lighter);
+    border: 0px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: max-content;
+    padding: 10px 25px;
+    font-weight: 600;
+    height: fit-content;
+}

@@ -1,0 +1,355 @@
+.container {
+    display: flex;
+    background: var(--Dark);
+    height: 100%;
+    min-height: 100vh;
+    width: 100%;
+    justify-content: center;
+}
+
+.chatPageContainer {
+    margin-top: 140px;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+.h1 {
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.leftSide {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-right: 15px;
+}
+
+.search {
+    background-color: var(--Lighter);
+    color: white;
+    width: 100%;
+    height: 50px;
+    outline: none;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 0px;
+}
+
+.allChatsWrapper {
+    width: 100%;
+    /* height: 550px; */
+    overflow-y: auto;
+    background-color: var(--Lighter);
+    border-radius: 5px;
+    height: 600px;
+}
+
+.singleChatWrapper {
+    width: 100%;
+    padding: 16px;
+    border-bottom: 1px solid var(--Darker);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.singleChatLeft {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nameAndLastMessage>p {
+    margin: 0px;
+}
+
+.name {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.lastMessage {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #979797;
+    max-width: 190px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.profilePictureOutside {
+    margin-right: 16px !important;
+    border-radius: 100%;
+    position: relative;
+}
+
+.onlineIndicator {
+    position: absolute;
+    bottom: 2px;
+    right: -1px;
+    background-color: #47BEA2;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 2px solid #343749;
+}
+
+.dateAndOnlineIndicator {
+    /* display: flex;
+    justify-content: flex-end; */
+}
+
+.dateOutside {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #979797;
+    align-self: auto;
+    margin-top: 0px;
+    margin-bottom: 70%;
+}
+
+.rightSide {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+}
+
+.chatInfoWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.chatInfoLeft {
+    display: flex;
+    align-items: center;
+}
+
+.premium {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    text-align: right;
+    color: var(--Pink);
+    margin: 0px;
+}
+
+.daysLeft {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+    color: #979797;
+    margin: 0px;
+}
+
+.chat {
+    width: 100%;
+    background-color: var(--Darker);
+    height: 670px;
+    overflow-y: auto;
+    border-radius: 5px;
+    position: relative;
+}
+
+.chatInnerContainer {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 100px;
+    padding-top: 15px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.leftBlock {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    max-width: 80%;
+}
+
+.rightBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    max-width: 80%;
+    align-self: flex-end;
+}
+
+.profilePictureInside {
+    margin-right: 8px !important;
+    border-radius: 100%;
+    position: relative;
+    align-self: flex-end;
+}
+
+.messagesContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.leftMessage {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: white;
+    color: black;
+    border-radius: 0px 5px 5px 0px;
+    margin-bottom: 5px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+}
+
+.leftMessage>.dateParagraph {
+    color: var(--LightText) !important;
+}
+
+.rightMessage {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: var(--Pink);
+    color: white;
+    border-radius: 5px 0px 0px 5px;
+    margin-bottom: 5px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    align-self: flex-end;
+}
+
+.messageParagraph {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 130%;
+    margin: 0px;
+}
+
+.dateParagraph {
+    color: white !important;
+    opacity: 0.8;
+    margin: 7px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    align-self: flex-end;
+}
+
+.sendContainer {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    right: 0;
+    padding: 0px 10px;
+}
+
+.sendInput {
+    background: #FFFFFF;
+    border-radius: 5px;
+    outline: none;
+    border: 0px;
+    width: 95%;
+    margin-right: 10px;
+    height: 100%;
+    padding: 0px 10px;
+}
+
+.sendButton {
+    border: 0px;
+    outline: none;
+    height: 100%;
+    background-color: var(--Pink);
+    color: white;
+    border-radius: 5px;
+    width: 40px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.icon {
+    fill: white;
+}
+
+@media (max-width: 1000px) {
+    .chatContainer {
+        padding: 0px 10px;
+    }
+    .leftSide {
+        width: 100% !important;
+    }
+    .rightSide {
+        width: 100% !important;
+        min-width: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .chatContainer {
+        padding: 0px;
+    }
+    .leftSide {
+        width: 100% !important;
+        min-width: 320px;
+        margin-right: 0px !important;
+    }
+    .h1 {
+        margin-left: 15px;
+    }
+    .search {
+        width: 95%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .rightSide {
+        width: 100% !important;
+        min-width: 400px;
+    }
+    .chatInfoWrapper {
+        padding: 0px 15px;
+    }
+    .show {
+        display: flex;
+    }
+    .hidden {
+        display: none;
+    }
+}

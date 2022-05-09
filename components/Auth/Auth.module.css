@@ -1,0 +1,99 @@
+.label {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: white;
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+
+.input {
+  width: 100%;
+  height: 35px;
+  border-radius: 9px;
+  background-color: #474b62;
+  outline: none;
+  border: 0;
+  padding-left: 10px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+.button {
+  width: 265px;
+  height: 43px;
+  margin-left: calc(50% - 132.5px);
+  margin-top: 30px;
+  border-radius: 10px;
+  border: 0;
+  background-color: #fe3686;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.buttonUnderText {
+  margin-top: 15px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  user-select: none;
+}
+.buttonUnderText a {
+  color: white;
+  cursor: pointer;
+}
+
+.radioGroup {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.radioDiv {
+  width: calc(50% - 10px);
+  text-align: center;
+  height: 43px;
+  border-radius: 9px;
+  background-color: #474b62;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid transparent;
+}
+.radioDiv p {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0;
+}
+.radioDiv input {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  opacity: 0;
+}
+.selected {
+  border-color: #fe3686;
+}
+.selected p {
+  color: white;
+}
+.errorinput{
+  border: 1px solid #fe3686;
+}

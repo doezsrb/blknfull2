@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.iconContainer {
+    background: var(--Dark) !important;
+    margin-right: 16px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    color: var(--LightText);
+    margin: 0px;
+    font-size: 16px;
+}
+
+.value {
+    color: #FFFFFF;
+    margin: 0px;
+    font-size: 20px;
+}

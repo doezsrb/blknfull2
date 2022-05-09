@@ -1,0 +1,47 @@
+.container {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: transparent;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+.logoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo {
+    max-width: 30px !important;
+    height: auto !important;
+}
+
+.logoText {
+    font-size: 20px;
+    margin-left: 10px;
+    color: #ffffff;
+}
+
+.loginButtonsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .loginButtonsContainer {
+        display: none;
+    }
+
+    .logoContainer>p {
+        display: none;
+    }
+}

@@ -1,0 +1,23 @@
+:root {
+  --Pink: #FE3686;
+  --Green: #47BEA2;
+  --Dark: #343749;
+  --Darker: #1E1F24;
+  --Lighter: #474B62;
+  --LightText: #81838C;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
